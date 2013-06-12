@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
+    <!-- くぼみ -->
+    <item>
+        <shape android:shape="rectangle">
+            <corners
+                android:bottomRightRadius="4dp"
+                android:bottomLeftRadius="4dp"
+                android:topLeftRadius="4dp"
+                android:topRightRadius="4dp" />
+
+            <gradient
+                android:angle="270"
+                android:startColor="#CC222222"
+                android:endColor="#CCEEEEEE"
+                android:type="linear" />
+        </shape>
+    </item>
+    <!-- グラデーション下地 -->
+    <item
+        android:top="2dp"
+        android:left="2dp"
+        android:right="2dp"
+        android:bottom="2dp">
+        <shape android:shape="rectangle">
+            <corners
+                android:bottomRightRadius="4dp"
+                android:bottomLeftRadius="4dp"
+                android:topLeftRadius="4dp"
+                android:topRightRadius="4dp" />
+
+            <gradient
+                android:angle="270"
+                android:startColor="#DDDDDD"
+                android:endColor="#222222"
+                android:type="linear" />
+        </shape>
+    </item>
+    <!-- グラデーション陰影 -->
+    <item
+        android:top="16dp"
+        android:left="2dp"
+        android:right="2dp"
+        android:bottom="2dp">
+        <shape android:shape="rectangle">
+            <corners
+                android:bottomRightRadius="0dp"
+                android:bottomLeftRadius="0dp"
+                android:topLeftRadius="4dp"
+                android:topRightRadius="4dp" />
+
+            <solid android:color="#40000000" />
+        </shape>
+    </item>
+</layer-list>
